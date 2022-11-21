@@ -1,0 +1,65 @@
+@keyframes bounceIn {
+    0% {
+      transform: scaleX(0.5);
+      opacity: 0;
+    }
+    60% {
+      transform: scaleX(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scaleX(0.8);
+    }
+  }
+h1 { color:white;
+    font-weight: bolder; 
+    text-align: center;
+    font-size: 100px;
+    border: 10px solid rgb(90, 13, 13);
+    animation: bounceIn 4s infinite;
+    background-color: rgb(156, 136, 21);
+}
+body {
+    font-family: 'Manrope', sans-serif;
+    background-image:url(https://www.cuddlynest.com/blog/wp-content/uploads/2022/04/best-casinos-las-vegas-mandalay-bay-resort.jpg);
+}
+#rules {
+    color: white;
+    text-align: center;
+    list-style-position: inside;
+    font-size: 30px;
+    background-color: blueviolet;
+}
+footer {
+   color: white; 
+   text-align: center;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 1000px;
+    font-size: 200px;
+    border: 20px solid black;
+    background-image:url(https://imgs.michaels.com/MAM/assets/1/726D45CA1C364650A39CD1B336F03305/img/0EE25A1976324607B75517B580F15837/28466_118261.jpg?fit=inside%7C1024:1024)
+}
+img {
+    display: block;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+}
+button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 30%;
+}
+#counter {
+    text-align: center;
+    background-color: rgb(133, 25, 25);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
